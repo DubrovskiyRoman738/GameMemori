@@ -22,9 +22,9 @@
         {
             components = new System.ComponentModel.Container();
             pnlBackground = new Panel();
-            lblSubtitle = new Label();
-            btnExit = new Button();
             btnAbout = new Button();
+            btnExit = new Button();
+            lblSubtitle = new Label();
             btnStart = new Button();
             lblTitle = new Label();
             timerAnimation = new System.Windows.Forms.Timer(components);
@@ -46,18 +46,20 @@
             pnlBackground.Size = new Size(900, 600);
             pnlBackground.TabIndex = 0;
             // 
-            // lblSubtitle
+            // btnAbout
             // 
-            lblSubtitle.AutoSize = true;
-            lblSubtitle.Font = new Font("Segoe UI", 12F, FontStyle.Italic);
-            lblSubtitle.ForeColor = Color.FromArgb(189, 195, 199);
-            lblSubtitle.Location = new Point(316, 137);
-            lblSubtitle.Name = "lblSubtitle";
-            lblSubtitle.Size = new Size(225, 28);
-            lblSubtitle.TabIndex = 3;
-            lblSubtitle.Text = "Проверь свою память!\r\n";
-            lblSubtitle.TextAlign = ContentAlignment.MiddleCenter;
-            lblSubtitle.Click += lblSubtitle_Click;
+            btnAbout.BackColor = Color.FromArgb(52, 152, 219);
+            btnAbout.FlatAppearance.BorderSize = 0;
+            btnAbout.FlatStyle = FlatStyle.Flat;
+            btnAbout.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            btnAbout.ForeColor = Color.White;
+            btnAbout.Location = new Point(340, 302);
+            btnAbout.Name = "btnAbout";
+            btnAbout.Size = new Size(201, 44);
+            btnAbout.TabIndex = 1;
+            btnAbout.Text = "ℹ️ Об игре";
+            btnAbout.UseVisualStyleBackColor = false;
+            btnAbout.Click += BtnAbout_Click;
             // 
             // btnExit
             // 
@@ -74,20 +76,18 @@
             btnExit.UseVisualStyleBackColor = false;
             btnExit.Click += BtnExit_Click;
             // 
-            // btnAbout
+            // lblSubtitle
             // 
-            btnAbout.BackColor = Color.FromArgb(52, 152, 219);
-            btnAbout.FlatAppearance.BorderSize = 0;
-            btnAbout.FlatStyle = FlatStyle.Flat;
-            btnAbout.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            btnAbout.ForeColor = Color.White;
-            btnAbout.Location = new Point(340, 302);
-            btnAbout.Name = "btnAbout";
-            btnAbout.Size = new Size(201, 44);
-            btnAbout.TabIndex = 1;
-            btnAbout.Text = "ℹ️ Об игре";
-            btnAbout.UseVisualStyleBackColor = false;
-            btnAbout.Click += BtnAbout_Click;
+            lblSubtitle.AutoSize = true;
+            lblSubtitle.Font = new Font("Segoe UI", 12F, FontStyle.Italic);
+            lblSubtitle.ForeColor = Color.FromArgb(189, 195, 199);
+            lblSubtitle.Location = new Point(328, 142);
+            lblSubtitle.Name = "lblSubtitle";
+            lblSubtitle.Size = new Size(225, 28);
+            lblSubtitle.TabIndex = 3;
+            lblSubtitle.Text = "Проверь свою память!\r\n";
+            lblSubtitle.TextAlign = ContentAlignment.MiddleCenter;
+            lblSubtitle.Click += lblSubtitle_Click;
             // 
             // btnStart
             // 

@@ -68,7 +68,7 @@
             btnReset.FlatStyle = FlatStyle.Flat;
             btnReset.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             btnReset.ForeColor = Color.White;
-            btnReset.Location = new Point(1058, 37);
+            btnReset.Location = new Point(1048, 36);
             btnReset.Name = "btnReset";
             btnReset.Size = new Size(100, 25);
             btnReset.TabIndex = 1;
