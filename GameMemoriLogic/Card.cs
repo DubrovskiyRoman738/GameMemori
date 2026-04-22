@@ -14,6 +14,6 @@
             PairId = pairId;
             IsFlipped = false;
             IsMatched = false;
-        }
+        } 
     }
 }
