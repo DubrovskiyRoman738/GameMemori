@@ -7,5 +7,5 @@
         Medium4x4 = 16,
         Large4x8 = 32,
         ExtraLarge8x8 = 64
-    }
+    } 
 }
