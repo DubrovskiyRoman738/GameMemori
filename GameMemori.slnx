@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="GameMemori/GameMemori.csproj" />
+  <Project Path="GameMemoriLogic.Tests/GameMemoriLogic.Tests.csproj" Id="2b2771fc-eeca-481c-b170-9db8ea9ad972" />
+  <Project Path="GameMemoriLogic/GameMemoriLogic.csproj" />
+</Solution>
