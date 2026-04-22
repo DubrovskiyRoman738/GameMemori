@@ -23,7 +23,7 @@ namespace GameMemoriLogic
             CurrentGameMode = mode;
             CurrentBoardSize = size;
             InitializeGame();
-        }
+        } 
 
         private void InitializeGame()
         {
