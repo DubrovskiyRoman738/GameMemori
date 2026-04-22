@@ -6,7 +6,7 @@ namespace GameMemoriLogic.Tests
     public class EnumTests
     {
         [Fact]
-        public void GameMode_ShouldHaveCorrectValues()
+        public void GameMode_ShouldHaveCorrectValues() 
         {
             // Assert
             Assert.Equal(0, (int)GameMode.Solo);

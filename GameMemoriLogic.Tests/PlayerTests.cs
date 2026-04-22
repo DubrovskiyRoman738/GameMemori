@@ -8,7 +8,7 @@ namespace GameMemoriLogic.Tests
         [Fact]
         public void Player_Constructor_ShouldInitializeCorrectly()
         {
-            // Arrange & Act
+           
             var player = new Player("TestPlayer");
 
             // Assert

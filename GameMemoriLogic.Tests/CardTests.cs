@@ -4,7 +4,7 @@ using GameMemoriLogic;
 namespace GameMemoriLogic.Tests
 {
     public class CardTests
-    {
+    { 
         [Fact]
         public void Card_Constructor_ShouldInitializeCorrectly()
         {

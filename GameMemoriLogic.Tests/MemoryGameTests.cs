@@ -12,7 +12,7 @@ namespace GameMemoriLogic.Tests
         {
             // Arrange & Act
             var game = new MemoryGame(GameMode.Solo, BoardSize.Medium4x4);
-
+             
             // Assert
             Assert.Equal(GameMode.Solo, game.CurrentGameMode);
             Assert.Equal(BoardSize.Medium4x4, game.CurrentBoardSize);
